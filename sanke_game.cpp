@@ -3,8 +3,8 @@
 #include <windows.h>
 using namespace std;
 bool gameOver;
-const int width = 100;
-const int height = 100;
+const int width = 40;
+const int height = 40;
 int x, y, fruitX, fruitY, score;
 int tailX[100], tailY[100];
 int nTail;
@@ -146,7 +146,7 @@ int main()
         Draw();
         Input();
         Logic();
-        Sleep(10); //sleep(10);
+        Sleep(80); //sleep(10);
     }
     return 0;
 }
